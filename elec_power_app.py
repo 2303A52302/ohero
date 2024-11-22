@@ -4,7 +4,7 @@ import numpy as np
 # Function to calculate electrical power parameters
 def Elec_Power(V, I, PF):
     # Convert power factor to angle in radians
-    theta = math.arccos(PF)  
+    theta = np.arccos(PF)  
     
     # Calculate Active Power (P)
     P = V * I * math.cos(theta)
