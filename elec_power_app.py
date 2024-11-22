@@ -1,10 +1,10 @@
 import streamlit as st
 import math
-
+import numpy as np
 # Function to calculate electrical power parameters
 def Elec_Power(V, I, PF):
     # Convert power factor to angle in radians
-    theta = math.acos(PF)  
+    theta = math.arccos(PF)  
     
     # Calculate Active Power (P)
     P = V * I * math.cos(theta)
