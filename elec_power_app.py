@@ -1,4 +1,4 @@
- import streamlit as st
+import streamlit as st
 import math
 
 # Function to calculate electrical power parameters
